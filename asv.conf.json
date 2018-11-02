@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "project": "project",
+  "project_url": "http://project-homepage.org/",
+  "repo": "https://github.com/crackcomm/asv-test.git",
+  "repo_subdir": "src/python",
+  "install_command": [
+    "python -mpip install"
+  ],
+  "build_command": [
+    "python setup.py build",
+    "PIP_NO_BUILD_ISOLATION=false python -mpip wheel --no-deps --no-index -w {build_cache_dir} {build_dir}"
+  ],
+  "branches": [
+    "master"
+  ],
+  "dvcs": "git",
+  "environment_type": "virtualenv",
+  "install_timeout": 600,
+  "pythons": [
+    "3.6"
+  ],
+  "results_dir": "results",
+  "html_dir": "html",
+  "hash_length": 8,
+  "build_cache_size": 2
+}
