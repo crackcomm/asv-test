@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "project": "project",
+  "project_url": "http://project-homepage.org/",
+  "repo": "..",
+  "repo_subdir": "src/python",
+  "benchmark_dir": "src/python/benchmarks",
+  "branches": [
+    "master"
+  ],
+  "dvcs": "git",
+  "environment_type": "virtualenv",
+  "install_timeout": 600,
+  "pythons": [
+    "3.7"
+  ],
+  "results_dir": "results",
+  "html_dir": "html",
+  "hash_length": 8,
+  "build_cache_size": 2
+}
