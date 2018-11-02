@@ -18,7 +18,7 @@
   "environment_type": "virtualenv",
   "install_timeout": 600,
   "pythons": [
-    "3.6"
+    "3.7"
   ],
   "results_dir": "results",
   "html_dir": "html",
